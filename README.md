@@ -10,23 +10,31 @@ Django-Crypto-Viewer is a Django web application that allows users to view crypt
    git clone https://github.com/MayersScott/Django-Crypto-Viewer.git
    cd Django-Crypto-Viewer
 1. Create a virtual environment (venv) and activate it:
+   ```python
    python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
+   source `venv/bin/activate`  # On Windows, use `venv\Scripts\activate`
 
-2. Install the required packages:
+3. Install the required packages:
+   ```python
    pip install -r requirements.txt
+   ```
 
-3. Apply migrations:
+5. Apply migrations:
+   ```python
    python manage.py migrate
+   ```
 
-4. Start the development server:
+7. Start the development server:
+   ```python
    python manage.py runserver
+   ```
 
-5. Access the application in your web browser at http://localhost:8000.
+9. Access the application in your web browser at `http://localhost:8000`.
 
 ## Usage
 Visit the homepage to view real-time cryptocurrency prices.
-Prices are displayed in USD, EUR, RUB, and CNY.
+Prices are displayed in `USD`, `EUR`, `RUB`, and `CNY`.
 Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
@@ -36,6 +44,6 @@ Make your changes and commit them.
 Push your changes to your fork.
 Submit a pull request.
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the `LICENSE` file for details.
 
 
