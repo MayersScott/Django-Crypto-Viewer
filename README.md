@@ -31,6 +31,8 @@ Django-Crypto-Viewer is a Django web application that allows users to view crypt
    ```
 
 9. Access the application in your web browser at `http://localhost:8000`.
+    
+![photo](https://github.com/MayersScott/Django-Crypto-Viewer/assets/148715834/f8d48638-e1ac-46a5-a8c7-7ebac65104d2)
 
 ## Usage
 Visit the homepage to view real-time cryptocurrency prices.
